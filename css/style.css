@@ -1,0 +1,70 @@
+*{
+  font-family: monospace;
+}
+
+
+
+ .container {
+
+    width: 900px;
+    height: 900px;
+    /*border: solid 1px black;*/
+  }
+  
+  .title {
+    text-align: left;
+    /*border: solid 1px red;*/
+    margin-left: 10px;
+  }
+
+
+  
+
+  .container-photos{
+    height: 600px;
+    /*border: solid 1px blue;*/
+  
+  }
+
+  hr{
+    border-top: 3px solid #000;
+    width: 20px;
+    margin-left: 0px;
+  }
+
+  .person-one,
+  .person-two,
+  .person-three,
+  .person-four,
+  .person-five,
+  .person-six{
+    margin: 10px;
+  }
+
+
+  .person-one,
+  .person-two,
+  .person-three{
+    float: left;
+  }
+
+  .person-four{
+    float: left;
+    clear: left;
+  
+  }
+
+  .person-five,
+  .person-six{
+    float: left;
+    
+  }
+
+  h3{
+    position: absolute;
+    /*margin-bottom: 200px;*/
+    margin-top: 170px;
+    margin-left: 80px;
+    color: #FFF;
+    text-shadow: -3px -2px 3px #000;
+  }
